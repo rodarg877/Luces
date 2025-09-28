@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8930089997894074881}
   - component: {fileID: 4875443096554717219}
-  - component: {fileID: 2314713528987605791}
+  - component: {fileID: 2891663791093574126}
   m_Layer: 0
   m_Name: luz
   m_TagString: Untagged
@@ -44,13 +44,13 @@ Light:
   serializedVersion: 11
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3
-  m_Range: 3
-  m_SpotAngle: 49.72223
-  m_InnerSpotAngle: 26.099867
+  m_Intensity: 0.8
+  m_Range: 4
+  m_SpotAngle: 57.883064
+  m_InnerSpotAngle: 33.40867
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -89,16 +89,16 @@ Light:
   m_BounceIntensity: 2
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 2.4842224e+27, y: 1.1017202e+24, z: 2.7376664e+20, w: 6.7675844e+22}
+  m_BoundingSphereOverride: {x: 0, y: 3.2482838e+14, z: 8.06e-43, w: 6.9699686e+12}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShadowRadius: 0
+  m_ShadowRadius: 1
   m_ShadowAngle: 0
   m_LightUnit: 1
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
---- !u!114 &2314713528987605791
+--- !u!114 &2891663791093574126
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,7 +131,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 514ed45cae94daf4dbb5a0b44dc0ec69, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.4470825
+      value: -2.6608887
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 514ed45cae94daf4dbb5a0b44dc0ec69, type: 3}
       propertyPath: m_LocalPosition.y
@@ -139,7 +139,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 514ed45cae94daf4dbb5a0b44dc0ec69, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.1687622
+      value: -4.578766
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 514ed45cae94daf4dbb5a0b44dc0ec69, type: 3}
       propertyPath: m_LocalRotation.w
